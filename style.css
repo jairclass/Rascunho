@@ -14,6 +14,7 @@ a{
     text-decoration: none;
 }
 
+
 .menu{
     width: 100%;
     margin: 10px auto;
@@ -28,6 +29,7 @@ a{
     padding-right: 10px;
     border-right: 3px solid rgb(1, 118, 1);
 }
+
 
 .titulo{
     font-size: 60px;
@@ -45,8 +47,8 @@ a{
     margin-bottom: auto;
     margin-right: 40px;
     margin-left: 60px;
-    
 }
+
 
 .artigo{
     width: 100%;
@@ -61,7 +63,7 @@ a{
     font-weight: bold;
     margin-top: 100px;
     line-height: 25px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .artigo p{
@@ -72,10 +74,91 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 10px;
     line-height: 25px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 
+.um{
+    width: 500px;
+    height: 800px;
+    background: plum;
+}
+
+.um > .dois{
+    width: 300px;
+    height: 300px;
+    background: rgb(70, 255, 77);
+}
+
+.um > .tres{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 168, 36);
+}
+
+.tres > .quatro{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 22, 123);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lista,.lista2{
+    list-style-position: inside;
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+.lista .item3, .lista2 .item3{
+    color: blue;
+    font-weight: bold;
+}
+
+.lista li,.lista2 li{
+    color: aqua;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+ol >li{
+    color: rgb(255, 0, 0);
+}
 
 
 
