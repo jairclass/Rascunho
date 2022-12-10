@@ -1,0 +1,347 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.menu{
+    width: 100%;
+    margin: 10px auto;
+    text-align: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.menu a{
+    font-size: 25px;
+    margin: 0 10px;
+    color: rgb(42, 126, 26);
+    padding-right: 10px;
+    border-right: 3px solid rgb(1, 118, 1);
+}
+
+
+
+.titulo{
+    font-size: 60px;
+    margin-top: 45px;
+    text-align: center;
+    color: rgb(45, 99, 57);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.titulo img{
+    float: center;
+    width: 500px;
+    float: right;
+    margin-top: 140px;
+    margin-bottom: auto;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+
+
+
+.artigo{
+    width: 100%;
+    margin: 40px auto;
+    text-align: justify;
+}
+
+.artigo h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 100px;
+    line-height: 25px;
+    padding-left: 40px;
+}
+
+.artigo p{
+    font-size: 15px;
+    font-family: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    line-height: 25px;
+    padding-left: 40px;
+    display: inline-block;
+    width: 640px;
+    margin-top: 30px;
+    margin-right: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box,.box2{
+    width: 300px;
+    margin: 0 auto;
+    background-color: bisque;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.box p{
+    color: aquamarine;
+    width: 500px;
+}
+
+.box2 p{
+    width: 100%;
+}
+
+.box2{
+    background-color: red;
+    margin-top: 50px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+---------------------------------------------------------------
+
+
+
+.clear{
+    clear: both;
+}
+
+.pai{
+    width: 1280px;
+    padding: 40px 0;
+    background-color: rgba(44, 126, 208, 0.575);
+    margin: 0 auto;
+}
+
+.filho{
+    box-sizing: border-box;
+    border: 1px solid rgb(100, 147, 197);
+    float: left;
+    width: 640px;
+    height: 300px;
+    background-color: rgb(39, 255, 151);
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 0;
+    border: 1px solid rgb(128, 237, 45);
+    color: rgb(255, 255, 255);
+}
+
+
+
+---------------------------------------------------------------
+
+
+
+.center{
+    width: 1280px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background-color: bisque;
+    color: rgb(55, 112, 78);
+
+}
+
+.header{
+    width: 100%;
+    margin-bottom: 40px;
+    display: inline-block;
+    width: 640px;
+    margin-top: 30px;
+    margin-right: -4px;
+}
+
+
+
+.article{
+    box-sizing: content-box;
+    margin: 0 auto;
+    width: 1280px;
+    background: rgb(47, 70, 68);
+
+}
+
+.art{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px dotted red;
+    width: 640px;
+    margin-top: 30px;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.art p:nth-child(1){
+    display: inline-block;
+    height: 300px;
+    width: 30px;
+    background-color: purple;
+    margin-right: -4px;
+}
+
+
+
+---------------------------------------------------------------
+
+
+
+.tipo1{
+    color: rgb(192, 52, 52);
+}
+
+a.link{
+    font-size: 20px;
+}
+
+
+
+---------------------------------------------------------------
+
+
+
+.tipo2{
+    color: rgb(244, 186, 186);
+    font-size}
+.um{
+    width: 500px;
+    height: 800px;
+    background: plum;
+}
+
+.um > .dois{
+    width: 300px;
+    height: 300px;
+    background: rgb(70, 255, 77);
+}
+
+.um > .tres{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 168, 36);
+}
+
+.tres > .quatro{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 22, 123);
+}
+
+
+
+----------------------------------------------------------------
+
+
+
+.lista,.lista2{
+    list-style-position: inside;
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+.lista .item3, .lista2 .item3{
+    color: blue;
+    font-weight: bold;
+}
+
+.lista li,.lista2 li{
+    color: aqua;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+ol >li{
+    color: rgb(255, 0, 0);
+
+
+
+----------------------------------------------------------------
+
+
+
+Espaço entre as letras e altura entre as linhas
+p{
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+    Largura Máxima
+    max-width: 350px;
+
+
+
+---------------------------------------------------------------
+
+
+
+    background-color: rgb(143, 168, 145); 
+
+*/
