@@ -101,6 +101,92 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+a[href="https://www.google.com"]{
+    background-color: yellow;
+}
+
+[href="https://www.google.com"]{
+    background-color: red;
+}
+
+
+
+a[href*="google"], a[href*="danki"]{
+    background-color: aqua;
+}
+
+
+
+a[href~="https://www.google.com"]{
+    background-color: rgb(150, 213, 213);
+}
+
+
+
+a[attr~="https://www.google.com"]{
+    background-color: blanchedalmond;
+}
+
+
+
+a[attr*="google"]{
+    background-color: rgb(116, 69, 0);
+}
+
+a[attr|="google"]{
+    background-color: rgb(133, 87, 87);
+}
+
+a[attr$="dankigoogle"]{
+    background-color: rgb(82, 245, 33);
+}
+
+
+.text[type=text]{
+    background-color: blueviolet;
+}
+
+input[type=submit]{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+--------------------------------------------------------------
+
+
+
 .boxx{
     width: 700px; 
     margin-left: auto;
@@ -128,11 +214,9 @@ a{
         height: auto;
     }
 }
-    
 
 
 
-/* 
 --------------------------------------------------------------
 
 
@@ -349,4 +433,3 @@ p{
 
 */
 
- 
