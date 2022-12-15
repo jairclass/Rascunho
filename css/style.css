@@ -103,6 +103,24 @@ a{
 
 
 
+.menu-fixed{
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    bottom: -40px;
+    right: -40px;
+    background: green;
+}
+
+.box{
+    width: 100%;
+    height: 1400px;
+    color:purple;
+}
+
+.box p{
+    width: 400px;
+}
 
 
 
@@ -111,6 +129,34 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+--------------------------------------------------------------
 
 
 
@@ -176,13 +222,6 @@ input[type=submit]{
 
 
 
-
-
-
-
-
-
-/* 
 --------------------------------------------------------------
 
 
@@ -411,7 +450,6 @@ ol >li{
 
 
 ----------------------------------------------------------------
-
 
 
 Espaço entre as letras e altura entre as linhas
