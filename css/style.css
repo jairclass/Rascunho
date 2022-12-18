@@ -153,25 +153,32 @@ a{
 
 
 
-.bg{
-    width: 50%;
-    height: 50%;
-    margin: 0 auto;
 
-
-    background-color: green;
-    background-image: url("../img/matriz-musicdot-antiga.jpg");
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-position: 90px 90px;
-    
-
+.box4{
+    width: 100%;
+    text-align: center;
+    margin: 80px auto;
+    background-color: blueviolet;
 }
 
+.item3{
+    margin: 100%;
+    display: inline-block;
+}
 
+.item3 img{
+    width: 16%;
+}
 
+.item3 p{
+    text-align: right;
+    display: inline-block;
+    background-color: plum;
+}
 
-
+.last{
+    margin-right: 0;
+}
 
 
 
